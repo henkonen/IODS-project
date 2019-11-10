@@ -1,4 +1,27 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
 
 # About the project
 
 *Write a short description about the course and add a link to your GitHub repository here. This is an R Markdown (.Rmd) file so you can use R Markdown syntax.*
+
+I am feeling **really excited** about _this course_, but at the same time __a little__ bit overwhelmed because of many things going on at work ~~adn~~ and studies.  I would expect to learn coding with R and hopefully^if_I_manage_to_take_time_for_this^ learn to use it for my own purposes. I heard about the course from a colleague.
+
+###Link
+
+Here is a link to my GitHub repository: [link](https://github.com/henkonen/IODS-project).  
+And here is it written out: https://github.com/henkonen/IODS-project
+
+```{r}
+paste("Hello", "World!")
+```
+
+`r paste("Hello world!")`
+
+```{r highlight=TRUE}
+paste("Hello", "World!")
+```
